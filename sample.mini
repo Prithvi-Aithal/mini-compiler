@@ -1,0 +1,60 @@
+# ─────────────────────────────────────────
+#  sample.mini  —  test program
+#  Exercises every language feature.
+# ─────────────────────────────────────────
+
+# Variables and arithmetic
+x = 10
+y = 3
+sum = x + y
+product = x * y
+quotient = x / y
+
+print "=== Arithmetic ==="
+print sum
+print product
+print quotient
+
+# String concatenation
+name = "Prithvi"
+greeting = "Hello, " + name + "!"
+print greeting
+
+# If / else
+print "=== Conditionals ==="
+if x > 5
+    print "x is greater than 5"
+else
+    print "x is 5 or less"
+
+# Nested expression in condition
+if x * 2 == 20
+    print "x times 2 is 20"
+
+# While loop — countdown
+print "=== Countdown ==="
+n = 5
+while n > 0
+    print n
+    n = n - 1
+
+print "Blast off!"
+
+# Fibonacci (first 8 numbers)
+print "=== Fibonacci ==="
+a = 0
+b = 1
+count = 0
+while count < 8
+    print a
+    temp = a + b
+    a = b
+    b = temp
+    count = count + 1
+
+# Boolean-style comparisons
+print "=== Comparisons ==="
+result = 10 == 10
+print result
+result = 10 != 5
+print result
